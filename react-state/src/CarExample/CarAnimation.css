@@ -1,0 +1,30 @@
+.car-image {
+    width: 15%;
+    margin-top: 2rem;
+}
+
+.speed-0 {
+    animation: none;
+}
+
+.speed-20 {
+    animation: move 10s infinite;
+}
+
+.speed-40 {
+    animation: move 7s infinite;
+}
+
+.speed-60 {
+    animation: move 3s infinite;
+}
+
+@keyframes move {
+    from {
+        transform: translateX(0%);
+    }
+
+    to {
+        transform: translateX(550%);
+    }
+}
